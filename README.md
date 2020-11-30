@@ -1,2 +1,2 @@
-# VID-E-OH-
+# VID-E-OH
 Communications Lab Assignment #4
