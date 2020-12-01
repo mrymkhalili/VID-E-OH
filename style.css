@@ -1,0 +1,32 @@
+body{
+  background-image: url(https://st.depositphotos.com/1022027/2484/i/950/depositphotos_24841573-stock-photo-old-newspaper-background.jpg);
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.center{
+  text-align: center;
+  margin-top: 0;
+} 
+
+
+#scientist{
+  position: absolute;
+  top: 45%;
+  display: block;
+  max-width: 20%;
+  max-height: auto;
+  margin-left: 14%;
+}
+
+.headline{
+  position: absolute;
+  text-transform: uppercase;
+  left: 50%;
+  margin-left: -400px;
+  top: 28%;
+  text-emphasis: bold;
+  font: 50px Times, Arial;
+  
+}
