@@ -14,9 +14,6 @@ body{
 #scientist{
   position: absolute;
   top: 45%;
-  display: block;
-  max-width: 20%;
-  max-height: auto;
   margin-left: 14%;
 }
 
@@ -29,4 +26,39 @@ body{
   text-emphasis: bold;
   font: 50px Times, Arial;
   
+}
+
+.column1 {
+  position: absolute;
+  top: 100%;
+  margin-left: 14%;
+  float: left;
+  width: 25%;
+}
+
+.column2 {
+  position: absolute;
+  top: 100%;
+  margin-left: 40%;
+  float: left;
+  width: 25%;
+}
+
+
+.column3 {
+  position: absolute;
+  top: 45%;
+  margin-left: 66%;
+  float: left;
+  width: 20%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  position: absolute;
+  top: 30%;
+  content: "";
+  display: table;
+  clear: both;
 }
